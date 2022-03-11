@@ -13,13 +13,6 @@ header {
     border: 3px solid black;
 }
 
-h1 {
-    font-family: 'Press Start 2P', cursive;
-    color: #FFF;
-    text-shadow: 2px 2px 5px #000;
-    font-size: 24px;
-}
-
 nav {
     text-align: right;
 }
