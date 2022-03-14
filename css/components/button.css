@@ -1,0 +1,29 @@
+.button {
+    display: inline-block;
+    background-color: var(--color-first);
+    box-shadow: 5px 5px 5px #000;
+    padding-top: 18px;
+    padding-right: 20px;
+    padding-bottom: 18px;
+    padding-left: 20px;
+    /* padding: 18px 20px; */
+    /* padding: 18px 20px 18px; */
+    /* padding: 18px 20px 18px 20px; */
+    margin-right: 0;
+    transition: transform 100ms linear, opacity 200ms ease-in-out;
+    
+    color: #FFF;
+    font-size: 24px;
+    font-family: 'Fira Code', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.button:hover {
+    transform: scale(1.08);
+    opacity: 0.9;
+}
+
+.button:before {
+    margin: 0;
+}
