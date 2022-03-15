@@ -15,3 +15,8 @@
 .card-project.-yellow {
     background-color: #f7d51d;
 }
+
+.card-project .logo {
+    width: 280px;
+    height: 280px;
+}
