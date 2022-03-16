@@ -6,3 +6,8 @@
     border-bottom: 10px solid #000;
     padding: 10px 20px;
 }
+
+.main-header .logo {
+    width: 60px;
+    height: 60px;
+}
