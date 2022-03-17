@@ -13,6 +13,14 @@
     background-color: black;
 }
 
-.main-section.-bdColor {
-    border-bottom: 10px solid var(--color-first);
+.main-section.-bdFirst {
+    border-color: var(--color-first);
+}
+
+.main-section.-bgSecond {
+    background-color: var(--color-second);
+}
+
+.main-section.-bdBlack {
+    border-color: #000;
 }

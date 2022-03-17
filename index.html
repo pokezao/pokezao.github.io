@@ -10,16 +10,19 @@
 
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/colors.css">
+        <link rel="stylesheet" href="css/components/button-arrow.css">
         <link rel="stylesheet" href="css/components/card-project.css">
-        <link rel="stylesheet" href="css/components/logo.css">
         <link rel="stylesheet" href="css/components/main-action.css">
         <link rel="stylesheet" href="css/components/main-banner.css">
         <link rel="stylesheet" href="css/components/main-box.css">
         <link rel="stylesheet" href="css/components/main-button.css">
+        <link rel="stylesheet" href="css/components/main-carousel.css">
+        <link rel="stylesheet" href="css/components/main-description.css">
         <link rel="stylesheet" href="css/components/main-header.css">
         <link rel="stylesheet" href="css/components/main-section.css">
         <link rel="stylesheet" href="css/components/main-subtitle.css">
         <link rel="stylesheet" href="css/components/main-title.css">
+        <link rel="stylesheet" href="css/components/node-card.css">
         <link rel="stylesheet" href="css/components/progress-bar.css">
         <link rel="stylesheet" href="css/components/tech-skill.css">
         <link rel="stylesheet" href="css/components/wrapper-card.css">
@@ -123,7 +126,7 @@
             </div>
         </section>
 
-        <section class="main-section -bgBlack -bdColor">
+        <section class="main-section -bgBlack -bdFirst">
             <h2 class="main-title -second">Projetos</h2>
 
             <div class="wrapper-card">
@@ -146,5 +149,47 @@
                 </a>
             </div>
         </section>
+
+        <section class="main-section -bgSecond -bdBlack">
+            <h2 class="main-title -second">Sobre</h2>
+
+            <section class="main-carousel">
+                <button class="button-arrow -left"><span class="content">Previous</span></button>
+
+                <div class="items">
+                    <div class="elements">
+                        <figure class="node-card">
+                            <figcaption class="title">2014</figcaption>
+                            <div class="logo">
+                                <img src="assets/img/warstation.png" alt="Header da warStation">
+                            </div>
+                        </figure>
+
+                        <figure class="node-card">
+                            <figcaption class="title">2015</figcaption>
+                            <div class="logo">
+                                <img src="assets/img/ws_olimpiadas-verao_2015.png" alt="Logo das Olimpíadas de Verão da warStation">
+                            </div>
+                        </figure>
+
+                        <figure class="node-card">
+                            <figcaption class="title">2016</figcaption>
+                            <div class="logo">
+                                <img src="assets/img/ws_olimpiadas-pascoa.png" alt="Logo das Olimpíadas da Páscoa da warStation">
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+
+                <button class="button-arrow -right"><span class="content">Next</span></button>
+            </section>
+
+            <p class="main-description">
+                Lenda viva do Counter-Strike português, principalmente no que toca a modos de jogo como o Jailbreak,
+                tendo feito parte da Administração daquela que outrora fora a melhor comunidade portuguesa de 1.6 - warStation.
+            </p>
+        </section>
+
+        <script src="js/components/main-carousel.js"></script>
     </body>
 </html>
