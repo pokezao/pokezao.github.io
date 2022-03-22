@@ -27,3 +27,8 @@
 .main-button:before {
     margin: 0;
 }
+
+.main-button.-full {
+    width: 100%;
+    border: 0;
+}
