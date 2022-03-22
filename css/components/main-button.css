@@ -32,3 +32,8 @@
     width: 100%;
     border: 0;
 }
+
+.main-button.-full:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
